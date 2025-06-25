@@ -25,11 +25,6 @@ O iPhone foi modelado com três capacidades principais:
 
 Essas funcionalidades foram separadas em interfaces Java, e a classe `iPhone` implementa todas elas.
 
----
-
-## 🧩 Diagrama UML
-
-Abaixo está o diagrama UML representando a estrutura do projeto:
 
 ## 🧩 Diagrama UML
 
@@ -37,8 +32,6 @@ Abaixo está o diagrama UML representando a estrutura do projeto:
 
 ![Diagrama UML do iPhone](iPhoneUML.png)
 
-
-```
 
 ## 💻 Código Java
 
