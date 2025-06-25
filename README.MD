@@ -31,41 +31,12 @@ Essas funcionalidades foram separadas em interfaces Java, e a classe `iPhone` im
 
 Abaixo está o diagrama UML representando a estrutura do projeto:
 
-```mermaid
-classDiagram
-    interface ReprodutorMusical {
-        +tocar()
-        +pausar()
-        +selecionarMusica(String musica)
-    }
+## 🧩 Diagrama UML
 
-    interface AparelhoTelefonico {
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
-    }
+Abaixo está o diagrama UML representando a estrutura do projeto:
 
-    interface NavegadorInternet {
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
-    }
+![Diagrama UML do iPhone](iPhoneUML.png)
 
-    class iPhone {
-        +tocar()
-        +pausar()
-        +selecionarMusica(String musica)
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
-    }
-
-    iPhone ..|> ReprodutorMusical
-    iPhone ..|> AparelhoTelefonico
-    iPhone ..|> NavegadorInternet
 
 ```
 
